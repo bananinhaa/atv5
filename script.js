@@ -6,18 +6,23 @@ function valida() {
 
   
     if (nome.value == "") {
-      alert("Coloque novamente o seu nome");
+      document.getElementById('erro').innerHTML="<div class='erro' id='erro'>Preencha de forma adequada</div>";
     }
   
     if (dtn.value == "") {
-      alert("Coloque a data de seu nascimento");
+      document.getElementById('erro').innerHTML="<div class='erro' id='erro'>Preencha de forma adequada</div>";
     }
   
     if (email.value == "") {
-      alert("Coloque novamente a sua idade");
+      document.getElementById('erro').innerHTML="<div class='erro' id='erro'>Preencha de forma adequada</div>";
     }
     if (tele.value == "") {
-        alert("indique seu numero")
+      document.getElementById('erro').innerHTML="<div class='erro' id='erro'>Preencha de forma adequada</div>";
     }
   }
+  
+function limpar() {
+  document.getElementById('erro').innerHTML="<h2 id='erro'></h2>";
+  console.log('adadadsa')
+}
   

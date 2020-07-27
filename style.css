@@ -12,6 +12,14 @@ h1 {
     font: italic small-caps bold 50px/2 cursive;
     color: black;
 }
+.erro {
+    background-color: #aeb6e0;
+    margin-top: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 10px 10px 10px;
+    font: 30px bold white; 
+}
 /*
 .cabe {
     height: 30px;
@@ -26,6 +34,7 @@ h1 {
     color: black;
 }*/
 .quadro {
+
     margin-top: 100px;
     padding-top: 5px;
     padding: 20px;
