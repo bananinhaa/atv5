@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+      <div class="cabe">
+        <h1>Cadastro</h1>
+      </div>
+    <div class="quadro">
+        <form action="formulario" method="post">
+
+        <div>
+            <label>nome</label>
+        </div>
+        <div id="ls">
+            <input type="text" id="nome" placeholder="Ex: João" required />
+        </div>
+        <div>
+            <label>Dt. Nascimento</label>
+        </div>
+        <div id="ls">
+            <input type="text" id="dtn" placeholder="dd/mm/aaaa" required />
+        </div>
+        <div>
+            <label>E-mail</label>
+        </div>
+        <div id="ls">
+            <input type="email" id="email" placeholder="####@gmail.com" required />
+        </div>
+        <div>
+            <label>Telefone</label>
+        </div>
+        <div id="ls">
+            <input type="number" id="tele" placeholder="(99) 99999-9999" required />
+        </div>
+
+
+        <div class="button">
+            <button class="btn btn1" type="reset">Reset</button>
+            <button class="btn btn2" type="submit" onclick="valida()">salvar</button>
+         </div>
+        </form>
+    </div>
+  </body>
+</html>
